@@ -5,30 +5,30 @@ The application allows users to search movies in real time, view posters and det
 
 🔗 Live Demo
 
-👉 https://react-movie-app-49zr.vercel.app
+-> https://react-movie-app-49zr.vercel.app
 
 
 ✨ Features
 
-🔍 Live movie search with debounced input (efficient API usage)
+-> Live movie search with debounced input (efficient API usage)
 
-⚡ Fast performance using Vite + React hooks
+-> Fast performance using Vite + React hooks
 
-🎞️ Displays movie posters, titles, ranks, and descriptions
+-> Displays movie posters, titles, ranks, and descriptions
 
-🌀 Dynamic homepage with randomized popular searches
+-> Dynamic homepage with randomized popular searches
 
-⏳ Loading spinner + error handling
+-> Loading spinner + error handling
 
-📊 Appwrite-powered analytics
+-> Appwrite-powered analytics
 
 Stores searchTerm, count, movie_id, poster_url
 
 Updates count each time a movie is searched
 
-🎨 Beautiful, responsive UI
+-> Beautiful, responsive UI
 
-🚀 Deployed on Vercel
+-> Deployed on Vercel
 
 📸 Screenshots
 
@@ -36,27 +36,27 @@ Updates count each time a movie is searched
 ![Search Results](./screenshots/search.png)
 
 🛠️ Tech Stack
-Frontend
+[Frontend]
 
-React (Vite)
+  React (Vite)
 
-Tailwind CSS
+  Tailwind CSS
 
-react-use (for debounce)
+  react-use (for debounce)
 
-Backend / Cloud
+[Backend / Cloud]
 
-Appwrite Cloud Database (Serverless backend)
+  Appwrite Cloud Database (Serverless backend)
 
-Appwrite Web SDK
+  Appwrite Web SDK
 
-APIs
+[APIs]
 
-IMDB Search API (iamidiotareyoutoo.com)
+  IMDB Search API (iamidiotareyoutoo.com)
 
-Deployment
+[Deployment]
 
-Vercel
+  Vercel
 
 📁 Project Structure
 react-movie-app/
@@ -83,7 +83,7 @@ VITE_APPWRITE_DB_ID=your_database_id
 
 These values are found inside your Appwrite dashboard.
 
-🚀 Installation & Setup
+[{ Installation & Setup }]
 
 Follow the steps below to run the project locally:
 
@@ -125,9 +125,9 @@ poster_url (poster link)
 
 This will be used later to create:
 
-🔥 A Trending Movies page
-🔥 Search history insights
-🔥 Most searched titles dashboard
+-> A Trending Movies page
+-> Search history insights
+-> Most searched titles dashboard
 
 🌐 API Reference
 
